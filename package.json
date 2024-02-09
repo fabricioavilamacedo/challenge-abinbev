@@ -1,0 +1,19 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web:open": "./node_modules/.bin/cypress open -C cypress.web.config.js",
+    "web:run": "./node_modules/.bin/cypress run -C  cypress.web.config.js --browser chrome --headless",
+    "api:open": "./node_modules/.bin/cypress open -C cypress.api.config.js",
+    "api:run": "./node_modules/.bin/cypress run -C cypress.api.config.js --browser chrome --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  }
+}

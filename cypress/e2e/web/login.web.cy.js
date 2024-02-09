@@ -7,5 +7,6 @@ describe('Login', () => {
     Login.preencherLogin('fulano@qa.com', 'teste')
     Login.clickBtnEntrar();
     Home.validarAcessoHome();
+    cy.screenshot()
   })
 })

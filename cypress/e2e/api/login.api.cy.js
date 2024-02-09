@@ -8,10 +8,11 @@ describe('Login', () => {
     })
   })
 
-  it('testes', () => {
+  it('Deve realizar uma falha para teste de CI/CD', () => {
     LoginRequest.autenticacao().should((response) => {
-        expect(response.status).to.eq(200)
+        expect(response.status).to.eq(500)
         expect(response.body).to.be.not.null
+        cy.screenshot()
     })
   })
 })

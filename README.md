@@ -1,14 +1,12 @@
-# Desafio Técnico - Retain
+# ABInBev - Challenge
 ## Descrição
-Desafio Técnico front-end para p projeto Retain
+
 ## Instruções
 1. Baixe e instale o Node: [https://nodejs.org/]
-2. Clone o repositório: `git clone git@github.com:fabricioavilamacedo/Cypress.git` (SSH) or `git clone https://github.com/fabricioavilamacedo/Cypress.git` (HTTPS)
+2. Clone o repositório: `` (SSH) or `` (HTTPS)
 3. No diretório raiz do projeto rodar os comandos `npm install` e `npx cypress open` para abrir o framework
-4. Após a inicialização do Cypress selecionar e rodar o teste 'regras.cy.js' que ele já irá executar todos os casos de teste.
+4. Após a inicialização do Cypress selecionar e rodar o teste '' que ele já irá executar todos os casos de teste.
 
-Observações:
-1. Para execução do 2º Caso de teste deve-se adicionar novos CPF's sem registros de simulação cadastrados pois a API de Deletar as simulações (caso de teste 3) não está realizando o delete em banco de dados adequadamente, para isso, deve-se apenas substituir os valores da variável 'CPFs' no arquivo 'regras.cy.js'.
 
 ## Estrutura de diretórios
 ```

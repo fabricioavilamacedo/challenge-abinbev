@@ -7,4 +7,11 @@ describe('Login', () => {
         expect(response.body).to.be.not.null
     })
   })
+
+  it('testes', () => {
+    LoginRequest.autenticacao().should((response) => {
+        expect(response.status).to.eq(200)
+        expect(response.body).to.be.not.null
+    })
+  })
 })

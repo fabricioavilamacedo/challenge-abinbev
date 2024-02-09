@@ -29,5 +29,5 @@ Technical challenge carried out for ABInBev using Cypress.
 ├─ cypress.config.js   # File for config cypress
 ├─ package-lock.json   # Project manifest
 ├─ package.json        # Project manifest
-└─ README.md           # This file
+└─ README.md           # This file.
 ```
